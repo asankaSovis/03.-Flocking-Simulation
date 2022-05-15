@@ -2,16 +2,21 @@ color backColour = #DEDEDE;
 color pointerColour = #FF1A1A;
 color boidColour = #FF1A1A;
 int boidSize = 10;
+int visionRadius = 100;
+int neighbourhoodRadius = 50;
+float maxForce = 0.1;
+float maxSpeed = 2;
 
-boid[] flock = new boid[10];
+boid[] Flock = new boid[100];
 
 void setup()
 {
   size(800, 600); // Defining the size of the canvas
+  //frameRate(1);
   background(backColour); // Setting the colour of the background
-  for(int i = 0; i < flock.length; i++)
+  for(int i = 0; i < Flock.length; i++)
   {
-    flock[i] = new boid();
+    Flock[i] = new boid(i);
   }
 }
 
@@ -21,8 +26,10 @@ void draw()
   noStroke();
   fill(pointerColour);
   circle(mouseX, mouseY, 5);
-  for(int i = 0; i < flock.length; i++)
+  for(int i = 0; i < Flock.length; i++)
   {
-    flock[i].draw();
+    Flock[i].flock(Flock);
+    Flock[i].update();
+    Flock[i].draw();
   }
 }
