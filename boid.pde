@@ -1,7 +1,7 @@
 class boid {
-  PVector position = new PVector(width/2, height/2);
-  PVector velocity = new PVector(1, 1);
-  PVector acceleration = new PVector(0.1, 0.1);
+  PVector position = new PVector(width/2 + random(-50, 50), height/2 + random(-50, 50));
+  PVector velocity = new PVector(random(-1, 1), random(-1, 1));
+  PVector acceleration = new PVector(random(-0.1, 0.1), random(-0.1, 0.1));
   int orientation = 10;
   
   boid() {
