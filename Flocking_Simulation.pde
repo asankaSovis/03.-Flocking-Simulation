@@ -3,7 +3,7 @@ color pointerColour = #FF1A1A;
 color boidColour = #FF1A1A;
 int boidSize = 10;
 
-boid[] flock = new boid[1];
+boid[] flock = new boid[10];
 
 void setup()
 {
