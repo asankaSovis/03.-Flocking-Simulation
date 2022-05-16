@@ -3,7 +3,7 @@
 I created a Flocking Simulation in this code.
 We see birds and bees flocking in nature all the time, but can we create this sort of behaviour on a computer? In this small demonstration, I apply a set of rules to a bunch of triangles so that they behave like a flock of birds... or boids to be precise. This is based on the works done by [Craig Reynolds](https://www.red3d.com/cwr/index.html). In it he describes a way to create this kind of a flock of boids in a simulation, you can find his work [here](https://www.red3d.com/cwr/boids/).
 
-Check the [Blog Post](https://asanka-sovis.blogspot.com/2021/11/02-gravity-simulation-making-bouncing.html)  that this repo is connected to.
+Check the [Blog Post](https://asanka.hashnode.dev/03-flocking-simulation-making-a-flock-of-boids)  that this repo is connected to.
 
 ---
 
