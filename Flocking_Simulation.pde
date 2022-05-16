@@ -71,4 +71,6 @@ void draw()
     }
     Flock[i].draw();
   }
+  
+  //saveFrame("Output\\Flocking-" + frameCount + ".png"); // Saves the current frame. Comment if you don't need
 }
