@@ -7,7 +7,7 @@ Check the [Blog Post](https://asanka-sovis.blogspot.com/2021/11/02-gravity-simul
 
 ---
 
-[<img src='https://github.com/asankaSovis/02.-Gravity-Simulation/blob/main/Example%20Output/Gravity%20-%20Bouncing%20Balls.gif' alt='Gravity Simulation Sample'>](https://github.com/asankaSovis/02.-Gravity-Simulation/blob/main/Example%20Output/Gravity%20-%20Bouncing%20Balls.gif)
+[<img src='https://github.com/asankaSovis/Flocking_Simulation/blob/main/Example%20Output/Boids%20-%20Flocking%20Simulation.gif' alt='Flocking Simulation Sample'>](https://github.com/asankaSovis/Flocking_Simulation/blob/main/Example%20Output/Boids%20-%20Flocking%20Simulation.gif)
 
 ---
 
