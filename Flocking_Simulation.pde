@@ -3,7 +3,9 @@
 In this example, we wil create a flocking simulation. This was first proposed by Craig
 Reynolds. In it he proposes a simulation that simulates a flock of birds using nothing
 but mathematical models.
-Check out my blog post: https://asanka-sovis.blogspot.com/2021/11/02-gravity-simulation-making-bouncing.html
+Check out my blog post:
+        https://asanka.hashnode.dev/03-flocking-simulation-making-a-flock-of-boids
+        https://asanka-sovis.blogspot.com/2022/05/03-flocking-simulation-making-flock-of.html
 Coded by Asanka Akash Sovis
 
 -----------------------------------------------------------------------------*/
